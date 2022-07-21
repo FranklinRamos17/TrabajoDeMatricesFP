@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Matrices {
     Scanner lt = new Scanner(System.in);
 
-    public void ejer6() {
+    public void ejercicio6() {
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = lt.nextInt();
         System.out.println("Ingrese valor inicial:");
@@ -18,7 +18,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
 
-    public void ejer7() {
+    public void ejercicio7() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = lt.nextInt();
@@ -34,7 +34,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
 
-    public void ejer8() {
+    public void ejercicio8() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = lt.nextInt();
@@ -50,7 +50,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
     
-    public void ejer9() {
+    public void ejercicio9() {
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = lt.nextInt();
         System.out.println("Ingrese valor inicial:");
@@ -65,7 +65,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
 
-    public void ejer11() {
+    public void ejercicio11() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = lt.nextInt();
@@ -81,7 +81,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
 
-    public void ejer12() {
+    public void ejercicio12() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = lt.nextInt();
@@ -97,7 +97,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
 
-    public void ejer13() {
+    public void ejercicio13() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = lt.nextInt();
@@ -113,7 +113,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
 
-    public void ejer20() {
+    public void ejercicio20() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = lt.nextInt();
@@ -129,7 +129,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
 
-    public void ejer22() {
+    public void ejercicio22() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = lt.nextInt();
@@ -153,7 +153,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
 
-    public void ejer23() {
+    public void ejercicio23() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = lt.nextInt();
@@ -177,7 +177,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
 
-    public void ejer24() {
+    public void ejercicio24() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = lt.nextInt();
@@ -201,7 +201,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
 
-    public void ejer25() {
+    public void ejercicio25() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = lt.nextInt();
@@ -225,7 +225,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
 
-    public void ejer26() {
+    public void ejercicio26() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = lt.nextInt();
@@ -249,7 +249,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
 
-    public void ejer27() {
+    public void ejercicio27() {
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = lt.nextInt();
         System.out.println("Ingrese valor inicial:");
@@ -271,7 +271,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
 
-    public void ejer30() {
+    public void ejercicio30() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = lt.nextInt();
@@ -302,7 +302,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
 
-    public void ejer31() {
+    public void ejercicio31() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = lt.nextInt();
@@ -333,7 +333,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
 
-    public void ejer32() {
+    public void ejercicio32() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = lt.nextInt();
@@ -364,7 +364,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
 
-    public void ejer33() {
+    public void ejercicio33() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = lt.nextInt();
@@ -395,7 +395,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
 
-    public void ejer34() {
+    public void ejercicio34() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = lt.nextInt();
@@ -426,7 +426,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
 
-    public void ejer36() {
+    public void ejercicio36() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = lt.nextInt();
@@ -457,7 +457,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
 
-    public void imprimirMatriz(String[][] m) {
+    public static void imprimirMatriz(String[][] m) {
         for (int f = 0; f < m.length; f++) {
             for (int c = 0; c < m[0].length; c++) {
                 if (m[f][c] == null) {
@@ -470,6 +470,7 @@ public class Matrices {
         }
     }
     public static void main(String[] args) {
-        new Matrices().ejer6();
-    }
+        new Matrices().ejercicio11();
+        
+}
 }
