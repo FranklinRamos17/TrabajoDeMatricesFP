@@ -112,7 +112,22 @@ public class Matrices {
         }
         imprimirMatriz(matriz);
     }
-
+    public void ejercicio14() {
+        String[][] matriz;
+        System.out.println("Ingrese dimesion de Matriz:");
+        int dimension = cs.nextInt();
+        System.out.println("Ingrese valor inicial:");
+        int valor = cs.nextInt(); 
+        matriz = new String[dimension][dimension];
+        for (int c = 0; c < matriz.length; c++) { 
+            for (int f = 0; f <= c ; f++){
+           
+            matriz[f][c] = "" + valor;
+            valor++;    
+            }  
+    }
+    imprimirMatrices(matriz);
+    }
     public void ejercicio20() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
@@ -128,7 +143,29 @@ public class Matrices {
         }
         imprimirMatriz(matriz);
     }
+    public void ejercicio21() {
+        String[][] matriz;
+        System.out.println("Ingrese dimesion de Matriz:");
+        int dimension = cs.nextInt();
+        System.out.println("Ingrese valor inicial:");
+        int valor = cs.nextInt();
+        matriz = new String[dimension][dimension];
+        for (int c = 0; c < matriz.length; c++) {
+            if (c % 2 == 0) {
+                for (int f = 0; f < matriz.length; f++) {
+                    matriz[f][c] = String.valueOf(valor);
+                    valor++;
+                }
+            } else {
+                for (int f = matriz.length - 1; f >= 0; f--) {
+                    matriz[f][c] = String.valueOf(valor);
+                    valor++;
+                }
+            }
 
+        }
+        imprimirMatrices(matriz);
+    }
     public void ejercicio22() {
         String[][] matriz;
         System.out.println("Ingrese dimesion de Matriz:");
